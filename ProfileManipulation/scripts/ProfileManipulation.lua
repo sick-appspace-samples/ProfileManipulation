@@ -100,11 +100,8 @@ local function main()
   local equalInd = prof1:findEqual(-90, 3)
   local coordV = prof1:getCoordinate(equalInd)
   local valueV = prof1:getValue(equalInd)
-  local nInd = #equalInd
-  local points = {}
-  for k = 1, nInd do
-    points[#points + 1] = Point.create(coordV[k], valueV[k])
-  end
+  local points = Point.create(coordV, valueV)
+
   v:clear()
   v:addProfile(prof1, deco)
   local pointDeco = View.ShapeDecoration.create()

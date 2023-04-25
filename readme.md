@@ -12,7 +12,7 @@ This sample shows a set of basic profile manipulation functions. For example:
 - Translate
 - Add Noise
 - Clamp
-  
+
 ### How to Run
 
 This sample may currently be outdated.
@@ -29,4 +29,4 @@ Tutorial "Algorithms - Profile - FirstSteps".
 
 ### Topics
 
-Algorithm, Profile, Sample, SICK-AppSpace
+algorithm, profile, sample, sick-appspace
